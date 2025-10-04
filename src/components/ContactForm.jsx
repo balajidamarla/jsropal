@@ -55,9 +55,7 @@ export default function App() {
         </div> */}
         {/* Left Side - Form and Text. Added shadow to make it pop over the subtle image. */}
         <div className="w-full md:w-1/2 max-w-md bg-white p-6 sm:p-10 rounded-xl shadow-2xl">
-          <h2 className="text-4xl font-extrabold mb-4 text-red-700">
-            Contact Us
-          </h2>
+          <h2 className="text-3xl font-bold mb-4 text-red-700">Contact Us</h2>
           <p className="text-gray-600 mb-8 text-lg">
             Have a question or want to work together? Drop us a message and
             we'll get back to you soon.
