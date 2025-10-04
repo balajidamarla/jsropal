@@ -158,19 +158,13 @@ export default function Gallery() {
           <div className="max-w-md text-gray-800 text-center md:text-left transition-all duration-700 ease-in-out">
             <p
               key={IMAGES[activeIndex].text1}
-              className="text-2xl sm:text-3xl font-medium leading-snug transition-opacity duration-700 animate-fadeIn"
+              className="text-xl sm:text-3xl font-medium leading-snug transition-opacity duration-700 animate-fadeIn"
             >
               {IMAGES[activeIndex].text1}
               <span className="text-xl sm:text-2xl font-light leading-snug transition-opacity duration-700 animate-fadeIn">
                 {IMAGES[activeIndex].text2}
               </span>
             </p>
-            {/* <p
-              key={IMAGES[activeIndex].text2}
-              className="text-xl sm:text-2xl font-light leading-snug transition-opacity duration-700 animate-fadeIn"
-            >
-              {IMAGES[activeIndex].text2}
-            </p> */}
 
             {/* Navigation */}
             <div className="flex justify-center md:justify-start gap-4 mt-8">
