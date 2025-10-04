@@ -113,7 +113,7 @@ const SitePlan = () => {
             {/* Static Image Display */}
             <div className="relative group h-full flex items-center justify-center">
               <img
-                src="/opal Layout.jpg"
+                src="/opal Layout(1).jpg"
                 alt="Site Plan"
                 onError={(e) => {
                   e.target.onerror = null;
