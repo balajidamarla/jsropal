@@ -64,8 +64,9 @@ const About = () => {
             isVisible ? "translate-x-0 opacity-100" : "translate-x-20 opacity-0"
           }`}
         >
-          <h2 className="text-3xl md:text-3xl font-bold mb-6 text-red-700">
-            About Opal Peace City
+          <h2 className="text-3xl md:text-3xl font-bold mb-6 text-red-700 font-mono">
+            About Opal{" "}
+            <span className="text-green-600 font-mono">Peace City</span>
           </h2>
 
           <p className="text-gray-800 mb-8 leading-relaxed text-justify">

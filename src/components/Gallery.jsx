@@ -7,78 +7,78 @@ const IMAGES = [
     url: "/a1.jpg",
     alt: "Mountain landscape",
     rotation: -3,
-    text1: "Let's embody your beautiful ideas together — ",
-    text2: "simplify the way you visualize your next big things.",
+    text1: "A charming gazebo pavilion - ",
+    text2: "to unwind and enjoy serene surroundings",
   },
   {
     url: "/a2.jpg",
     alt: "Foggy scene",
     rotation: 2,
-    text1: "Discover the beauty of simplicity — ",
-    text2: "let your imagination paint new horizons.",
+    text1: "A vibrant and safe play area space - ",
+    text2: "designed for kids to play and explore.",
   },
   {
     url: "/a3.jpg",
     alt: "Person by the lake",
     rotation: -1,
-    text1: "Transform your vision into reality — ",
-    text2: "each step designed with purpose and precision.",
+    text1: "A charming rural-themed - ",
+    text2: "spot that celebrates tradition and culture.",
   },
   {
     url: "/a4.jpg",
     alt: "Forest path",
     rotation: 4,
-    text1: "Nature inspires us — ",
-    text2: "let's design stories that grow, evolve, and leave a mark.",
+    text1: "Smooth, well-laid roads - ",
+    text2: "easy and comfortable connectivity within the community.",
   },
   {
     url: "/a5.jpg",
     alt: "City skyline",
     rotation: -2,
-    text1: "In the heart of the city, innovation meets inspiration — ",
-    text2: "let's create something extraordinary.",
+    text1: "A peaceful retreat designed for your family - ",
+    text2: "to relax and rejuvenate amidst nature.",
   },
   {
     url: "/a6.jpg",
     alt: "Desert dunes",
     rotation: 1,
-    text1: "Embrace the warmth of creativity — ",
-    text2: "let your ideas flow like the sands of time.",
+    text1: "A peaceful retreat designed for your family - ",
+    text2: "to relax and rejuvenate amidst nature.",
   },
   {
     url: "/a7.jpg",
-    alt: "Ocean waves",
+    alt: "greenery",
     rotation: -4,
-    text1: "Dive into a sea of possibilities — ",
-    text2: "where every wave brings a new opportunity to shine.",
+    text1: "A cozy outdoor corner surrounded by - ",
+    text2: "lush greenery, perfect for relaxation and reflection.",
   },
   {
     url: "/a8.jpg",
-    alt: "Sunset view",
+    alt: "entryway",
     rotation: 3,
-    text1: "As the sun sets, new ideas rise — ",
-    text2: "let's illuminate the path to your next adventure.",
+    text1: "A grand entryway that reflects the - ",
+    text2: "pride and elegance of Opal Peace City.",
   },
   {
     url: "/a10.jpg",
-    alt: "Countryside road",
+    alt: "house",
     rotation: -2,
-    text1: "Journey through creativity — ",
-    text2: "every turn leads to a new discovery waiting to be unveiled.",
+    text1: "A peaceful retreat designed for your family - ",
+    text2: "to relax and rejuvenate amidst nature.",
   },
   {
     url: "/a11.jpg",
     alt: "Lush garden",
     rotation: 2,
-    text1: "In the embrace of nature, creativity blooms —",
+    text1: "In the embrace of nature, creativity blooms -",
     text2: " let's cultivate ideas that resonate and inspire.",
   },
   {
     url: "/a12.jpg",
-    alt: "Starry night",
+    alt: "entryway",
     rotation: -1,
-    text1: "Under the vast sky, dreams take flight — ",
-    text2: "let's chart a course to your next big idea.",
+    text1: "A grand entryway that reflects the - ",
+    text2: "pride and elegance of Opal Peace City.",
   },
 ];
 
@@ -127,8 +127,11 @@ export default function Gallery() {
           <div className="inline-flex items-center justify-center w-16 h-16 bg-red-700 rounded-2xl shadow-lg shadow-red-500/40 mb-4">
             <FaImages className="w-8 h-8 text-white" />
           </div>
-          <p className="text-3xl font-bold mb-4 text-red-700">Gallery</p>
-          <p className="text-gray-700 max-w-3xl mx-auto">
+
+          <p className="text-3xl font-bold mb-4 text-red-700 font-mono">
+            Gallery
+          </p>
+          <p className="text-gray-700 max-w-3xl mx-auto ">
             Explore our exclusive gallery showcasing the essence of Sun City
             Opal through captivating images that tell our story.
           </p>
@@ -137,7 +140,7 @@ export default function Gallery() {
         {/* Gallery Section */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-12">
           {/* Image Stack */}
-          <div className="relative w-[320px] h-[420px] sm:w-[380px] sm:h-[460px] md:w-[420px] md:h-[520px] flex justify-center items-center">
+          <div className="relative aspect-video h-[210px] sm:w-full sm:h-full md:w-full md:h-[380px] flex justify-center items-center">
             {IMAGES.map((img, i) => (
               <img
                 key={i}

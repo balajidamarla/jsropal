@@ -12,7 +12,6 @@ import {
 import { BiSolidPlaneTakeOff } from "react-icons/bi";
 import { MdMuseum } from "react-icons/md";
 
-
 const Location = () => {
   // NOTE: You must replace these placeholder URLs with actual, valid Google Maps embed URLs
   const mapUrl =
@@ -103,9 +102,9 @@ const Location = () => {
           <div className="inline-flex items-center justify-center w-16 h-16 bg-red-700 rounded-2xl shadow-lg shadow-red-500/40 mb-4">
             <FaLocationDot className="w-8 h-8 text-white" />
           </div>
-          <h2 className="text-3xl font-bold mb-4 text-red-700">
+          <p className="text-3xl font-bold mb-4 text-red-700 font-mono">
             Location Highlights
-          </h2>
+          </p>
           <p className="text-gray-800 max-w-3xl mx-auto">
             Strategically positioned for ultimate convenience with easy access
             to major landmarks, business hubs, and entertainment destinations.

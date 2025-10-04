@@ -24,10 +24,10 @@ const SitePlan = () => {
   // Removed state for isZoomed and isFullscreen
 
   const features = [
-    { icon: FaHome, label: "Residential Blocks", count: "12 Towers" },
-    { icon: LuTrees, label: "Green Spaces", count: "60% Area" },
+    { icon: FaHome, label: "Amenities", count: "Over 30" },
+    { icon: LuTrees, label: "Green Spaces", count: "40% Area" },
     { icon: FaCar, label: "Parking Slots", count: "500+ Spaces" },
-    { icon: FaMap, label: "Total Area", count: "15 Acres" },
+    { icon: FaMap, label: "Total Area", count: "75.64 Acres" },
   ];
 
   // Restructured amenities array to include an icon and a more descriptive label if needed
@@ -66,10 +66,10 @@ const SitePlan = () => {
       {/* Header Section */}
 
       <div className="text-center mb-12">
-        <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-red-600 to-red-600 rounded-2xl shadow-lg shadow-red-500/30 mb-4">
+        <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-300 to-green-600 rounded-2xl shadow-lg shadow-green-500/30 mb-4">
           <FaPaperPlane className="w-8 h-8 text-white" />
         </div>
-        <h2 className="text-3xl font-bold mb-4 text-red-700">
+        <h2 className="text-3xl font-bold mb-4 text-green-700 font-mono">
           Master Plan & Amenities
         </h2>
         <p className="text-gray-600 text-base max-w-3xl mx-auto">
@@ -85,10 +85,10 @@ const SitePlan = () => {
           return (
             <div
               key={index}
-              className="bg-red-50 rounded-2xl p-2 text-center hover:shadow-xl transition-all duration-300 hover:scale-[1.02] border border-red-100 transform shadow-md"
+              className="bg-green-50 rounded-2xl p-2 text-center hover:shadow-xl transition-all duration-300 hover:scale-[1.02] border border-green-100 transform shadow-md"
             >
               <div className="inline-flex items-center justify-center w-10 h-10 bg-white rounded-xl shadow-lg mb-3">
-                <Icon className="w-5 h-5 text-red-600" />
+                <Icon className="w-5 h-5 text-green-600" />
               </div>
               <p className="text-xl font-bold text-gray-800">{feature.count}</p>
               <p className="text-sm text-gray-600 mt-1">{feature.label}</p>
@@ -105,7 +105,7 @@ const SitePlan = () => {
           <div className="relative bg-white rounded-2xl overflow-hidden shadow-2xl border border-gray-200 h-full">
             {/* Title Badge (Top Left) */}
             <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-xl z-20 border border-gray-100">
-              <p className="text-sm font-bold text-red-500">
+              <p className="text-sm font-sm text-green-500">
                 Comprehensive Master Plan
               </p>
             </div>
@@ -130,8 +130,8 @@ const SitePlan = () => {
         <div className="lg:col-span-2 space-y-6">
           {/* Amenities List */}
           <div className="bg-white rounded-2xl p-6 shadow-2xl border border-gray-100 h-full">
-            <h3 className="text-2xl font-bold text-red-700 mb-6 flex items-center gap-3 border-b pb-3">
-              <MdOutlineWorkspacePremium className="w-6 h-6 text-red-700" />{" "}
+            <h3 className="text-2xl font-bold text-green-600 mb-6 flex items-center gap-3 border-b pb-3">
+              <MdOutlineWorkspacePremium className="w-6 h-6 text-green-600" />{" "}
               Premium Amenities
             </h3>
 
@@ -142,9 +142,9 @@ const SitePlan = () => {
                 return (
                   <div
                     key={index}
-                    className="flex items-start gap-2 p-3 bg-gradient-to-r from-red-100 to-white rounded-xl hover:shadow-md transition-all duration-300 group cursor-pointer"
+                    className="flex items-start gap-2 p-3 bg-gradient-to-r from-green-100 to-white rounded-xl hover:shadow-md transition-all duration-300 group cursor-pointer"
                   >
-                    <AmenityIcon className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />{" "}
+                    <AmenityIcon className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />{" "}
                     {/* Display the icon */}
                     <p className="text-gray-700 font-medium text-sm leading-snug">
                       {amenity.label}
