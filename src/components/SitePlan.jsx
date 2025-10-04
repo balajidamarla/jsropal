@@ -62,7 +62,7 @@ const SitePlan = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto py-10 px-4">
+    <div className="max-w-7xl mx-auto py-5 px-4">
       {/* Header Section */}
 
       <div className="text-center mb-12">

@@ -97,7 +97,7 @@ const Location = () => {
       <div className="absolute bottom-[-100px] right-[-100px] w-80 h-80 bg-red-200/50 rounded-full blur-3xl z-0 hidden lg:block"></div>
       <div className="absolute bottom-[-50px] left-[-50px] w-64 h-64 bg-red-100/50 rounded-bl-none rounded-3xl transform rotate-45 blur-2xl z-0 hidden lg:block"></div>
       <div className="absolute top-[-50px] right-[-150px] w-[300px] h-24 bg-red-300/50 transform rotate-[-20deg] z-0 hidden lg:block"></div>
-      <div className="max-w-7xl mx-auto py-14 px-6 font-sans relative z-10">
+      <div className="max-w-7xl mx-auto py-5 px-6 font-sans relative z-10">
         {/* Header Section */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-red-700 rounded-2xl shadow-lg shadow-red-500/40 mb-4">

@@ -115,19 +115,19 @@ export default function Gallery() {
 
   return (
     <div
-      className="max-w-7xl mx-auto py-10 px-4 bg-cover bg-center bg-no-repeat "
+      className="max-w-7xl mx-auto px-4 bg-cover bg-center bg-no-repeat "
       style={{
         backgroundImage:
           "url('/technology-abstract-background-with-particle-lines.jpg')",
       }}
     >
-      <section className="max-w-7xl relative mx-auto py-16 px-6 font-sans">
+      <section className="max-w-7xl relative mx-auto py-5 px-6 font-sans">
         {/* Header */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-red-700 rounded-2xl shadow-lg shadow-red-500/40 mb-4">
             <FaImages className="w-8 h-8 text-white" />
           </div>
-          <h2 className="text-3xl font-bold mb-4 text-red-700">Gallery</h2>
+          <p className="text-3xl font-bold mb-4 text-red-700">Gallery</p>
           <p className="text-gray-700 max-w-3xl mx-auto">
             Explore our exclusive gallery showcasing the essence of Sun City
             Opal through captivating images that tell our story.
