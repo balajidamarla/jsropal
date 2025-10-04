@@ -140,7 +140,7 @@ export default function Gallery() {
         {/* Gallery Section */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-12">
           {/* Image Stack */}
-          <div className="relative aspect-video h-[210px] sm:w-full sm:h-full md:w-full md:h-[380px] flex justify-center items-center">
+          <div className="relative aspect-video h-[190px] sm:w-full sm:h-full md:w-full md:h-[380px] flex justify-center items-center">
             {IMAGES.map((img, i) => (
               <img
                 key={i}
