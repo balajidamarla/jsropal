@@ -8,12 +8,11 @@ import {
   FaWater, // Water/Drainage
   FaShieldAlt, // Security, Legally Verified
   FaRoad, // Black top wide Roads
-  FaGripLines, // Used for Fence/Gate
   FaClock,
   FaMap,
   FaPaperPlane,
 } from "react-icons/fa";
-import { FaCircleCheck } from "react-icons/fa6";
+import { FaCircleCheck, FaToriiGate } from "react-icons/fa6";
 import { GiFootprint, GiCompass, GiGrassMushroom } from "react-icons/gi";
 import { LuTrees } from "react-icons/lu";
 import { MdOutlineWorkspacePremium } from "react-icons/md";
@@ -55,7 +54,7 @@ const SitePlan = () => {
     { icon: GiGrassMushroom, label: "Fully Landscaped Parks" },
     { icon: GiFootprint, label: "Childrens Play Area" },
     {
-      icon: FaGripLines, // Using a simple linear icon for the boundary/gate
+      icon: FaToriiGate, // Using a simple linear icon for the boundary/gate
       label: "Compound Wall with Entrance Arch & Gates",
     },
     { icon: FaShieldAlt, label: "24x7 Security" },

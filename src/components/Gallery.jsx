@@ -70,8 +70,8 @@ const IMAGES = [
     url: "/a11.jpg",
     alt: "Lush garden",
     rotation: 2,
-    text1: "In the embrace of nature, creativity blooms -",
-    text2: " let's cultivate ideas that resonate and inspire.",
+    text1: "A thoughtfully designed layout -",
+    text2: "with open, green spaces.",
   },
   {
     url: "/a12.jpg",
