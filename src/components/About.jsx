@@ -109,9 +109,9 @@ const About = () => {
             <div className="flex items-center text-sm md:text-base bg-red-50 text-red-700 px-3 py-1.5 rounded-full font-medium sm:ml-4">
               <CheckCheck size={18} className="mr-2" />
 
-              {/* 💡 ANIMATION CONTAINER: Fixed height and hidden overflow is critical */}
+              {/* ANIMATION CONTAINER: Fixed height and hidden overflow is critical */}
               <div className="h-5 overflow-hidden flex items-center">
-                {/* 💡 ANIMATED SPAN: Key forces re-render and re-application of the animation */}
+                {/* ANIMATED SPAN: Key forces re-render and re-application of the animation */}
                 <span
                   key={currentApprovalIndex}
                   // Use a custom animation class. You must define this in your global CSS (see note below)
