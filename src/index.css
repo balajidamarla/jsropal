@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+
+
 @import "tailwindcss";
 
 @tailwind utilities;
+
+
+
+
+/* Create a class for easy use in JSX */
+.font-zen-dots {
+  font-family: 'Zen Dots', cursive;
+}
+.font-lobster-two {
+  font-family: 'Lobster Two', cursive;
+}
 
 html,
 body {

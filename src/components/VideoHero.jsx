@@ -29,10 +29,13 @@ export default function VideoHero() {
       ))}
 
       {/* Overlay Text */}
-      <div className="absolute inset-0 flex items-center justify-center bg-black/40">
-        <h1 className="text-white text-4xl md:text-6xl font-bold text-center ">
-          Welcome to Our Project
+      <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/40 px-4">
+        <h1 className="text-white text-4xl md:text-6xl font-bold text-center mb-4 font-zen-dots">
+          The Smartest Way to Grow Your Wealth
         </h1>
+        <p className="text-white text-lg md:text-3xl text-center mb-6 font-lobster-two">
+          Open plots at JSR Group Suncity – Opal Peace City
+        </p>
       </div>
     </div>
   );
