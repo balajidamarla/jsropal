@@ -170,13 +170,13 @@ export default function Gallery() {
             <div className="flex justify-center md:justify-start gap-4 mt-8">
               <button
                 onClick={prev}
-                className="p-3 border border-gray-300 rounded-full hover:bg-gray-100 transition"
+                className="w-12 h-12 flex items-center justify-center border border-gray-300 rounded-full hover:bg-gray-100 transition"
               >
                 &larr;
               </button>
               <button
                 onClick={next}
-                className="p-3 border border-gray-300 rounded-full hover:bg-gray-100 transition"
+                className="w-12 h-12 flex items-center justify-center border border-gray-300 rounded-full hover:bg-gray-100 transition"
               >
                 &rarr;
               </button>
